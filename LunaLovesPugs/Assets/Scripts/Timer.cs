@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 //https://www.youtube.com/watch?v=x-C95TuQtf0
+//Still need to add the end of the game/when the timer should stop
 public class Timer : MonoBehaviour {
 
 	public Text TimerText;
@@ -21,6 +22,6 @@ public class Timer : MonoBehaviour {
 		//If you put in f0 here, it will be just the seconds and minutes.
 		string seconds = (t % 60).ToString("f2");
 
-		TimerText.text = minutes + ":" + seconds;
+		TimerText.text = "Timer: " + minutes + ":" + seconds;
 	}
 }
