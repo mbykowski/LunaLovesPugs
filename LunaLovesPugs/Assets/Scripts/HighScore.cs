@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HighScore : MonoBehaviour {
+	//comment for change to commit
+
 
 	static public int score = 0;
 
@@ -13,13 +15,9 @@ public class HighScore : MonoBehaviour {
 		}
 		PlayerPrefs.SetInt ("LunaLovesPugsHighScore", score);
 	}
-
-
 	void Start () {
 
 	}
-
-
 	void Update () {
 		Text gt = this.GetComponent<Text> ();
 		gt.text = "High Score: " + score;
