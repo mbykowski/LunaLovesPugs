@@ -4,10 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HighScore : MonoBehaviour {
-	//comment for change to commit
-
-
-	static public int score = 0;
+	static public int score = 100;
 
 	void Awake(){
 		if (PlayerPrefs.HasKey ("LunaLovesPugsHighScore")) {
