@@ -29,13 +29,16 @@ public class Timer : MonoBehaviour {
 
 		TimerText.text = "Timer: " + minutes + ":" + seconds;
 
+		//double score = double.Parse (scoreGT.text);
 		int score = int.Parse (scoreGT.text);
-		//need proper if statement for adding of score
-			score += 100;
-		
+		//score += 0.1;
+		score += 100;
+		//Mathf.Round(score);
+
 		scoreGT.text = score.ToString ();
 
 		if (score > HighScore.score) {
+			//HighScore.score = (int)score;
 			HighScore.score = score;
 		}
 	}
