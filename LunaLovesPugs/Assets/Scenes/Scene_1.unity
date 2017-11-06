@@ -108,6 +108,52 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &126209509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 126209511}
+  - component: {fileID: 126209510}
+  m_Layer: 0
+  m_Name: SpawnManagerPlatforms
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &126209510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126209509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2d5427620fd634daa7b8cd4f487b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPlatforms: 20
+  platform: {fileID: 1257079883466488, guid: d9c86d4b6dcf52545961f50cc5273906, type: 2}
+  horizontalMin: 6.5
+  horizontalMax: 14
+  verticalMin: -2
+  verticalMax: 6
+--- !u!4 &126209511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126209509}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &139280347
 Prefab:
   m_ObjectHideFlags: 0
@@ -117,11 +163,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4909501759105270, guid: a4238a6a827db4646aa938baaf221d42, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 366.9204
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4909501759105270, guid: a4238a6a827db4646aa938baaf221d42, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 151.38617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4909501759105270, guid: a4238a6a827db4646aa938baaf221d42, type: 2}
       propertyPath: m_LocalPosition.z
