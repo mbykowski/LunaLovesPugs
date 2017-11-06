@@ -4,6 +4,9 @@ using UnityEngine.UI;
 using UnityEngine;
 //https://www.youtube.com/watch?v=x-C95TuQtf0
 //Still need to add the end of the game/when the timer should stop
+using System;
+
+
 public class Timer : MonoBehaviour {
 
 	public Text TimerText;
@@ -29,17 +32,17 @@ public class Timer : MonoBehaviour {
 
 		TimerText.text = "Timer: " + minutes + ":" + seconds;
 
-		//double score = double.Parse (scoreGT.text);
-		int score = int.Parse (scoreGT.text);
-		//score += 0.1;
-		score += 100;
+		double score;//= double.Parse (scoreGT.text);
+		//int score = int.Parse (scoreGT.text);
+		score = Math.Round((t % 60), 2);
+		//score += 100;
 		//Mathf.Round(score);
 
 		scoreGT.text = score.ToString ();
 
 		if (score > HighScore.score) {
-			//HighScore.score = (int)score;
-			HighScore.score = score;
+			HighScore.score = (int)score;
+			//HighScore.score = score;
 		}
 	}
 }
