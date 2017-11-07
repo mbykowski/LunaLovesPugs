@@ -11,6 +11,7 @@ public class Timer : MonoBehaviour {
 
 	public Text TimerText;
 	private float StartTime;
+	public Text ScoreText;
 	public Text scoreGT;
 
 	// Use this for initialization
@@ -39,6 +40,7 @@ public class Timer : MonoBehaviour {
 		//Mathf.Round(score);
 
 		scoreGT.text = score.ToString ();
+		ScoreText.text = "Score: " + score;
 
 		if (score > HighScore.score) {
 			HighScore.score = (int)score;
