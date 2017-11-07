@@ -16,13 +16,13 @@ public class LunaController : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Awake () 
+	void Awake ()
 	{
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
