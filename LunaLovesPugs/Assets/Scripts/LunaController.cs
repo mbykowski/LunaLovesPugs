@@ -10,7 +10,6 @@ public class LunaController : MonoBehaviour {
 	public float jumpForce = 1000f;
 	public Transform groundCheck;
 
-
 	private bool grounded = false;
 	private Rigidbody2D rb2d;
 
@@ -52,4 +51,14 @@ public class LunaController : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	void OnTriggerEnter2D(Collider2D other)
+    {
+        //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
+        if (other.gameObject.CompareTag("PickUp"))
+                {
+                     other.gameObject.SetActive(false);
+										 Destroy(other, 0f);
+                }
+    }
 }
