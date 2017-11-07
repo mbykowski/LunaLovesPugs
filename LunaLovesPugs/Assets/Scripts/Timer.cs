@@ -34,7 +34,7 @@ public class Timer : MonoBehaviour {
 
 		double score;//= double.Parse (scoreGT.text);
 		//int score = int.Parse (scoreGT.text);
-		score = Math.Round((t % 60), 2);
+		score = Math.Round((t % 60), 0);
 		//score += 100;
 		//Mathf.Round(score);
 

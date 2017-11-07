@@ -7,7 +7,7 @@ public class LunaController : MonoBehaviour {
 	[HideInInspector] public bool jump = false;
 	public float moveForce = 365f;
 	public float maxSpeed = 5f;
-	public float jumpForce = 1000f;
+	public float jumpForce = 50f;
 	public Transform groundCheck;
 
 	private bool grounded = false;
