@@ -3,29 +3,25 @@ using System.Collections;
 
 public class LunaController : MonoBehaviour {
 
-	[HideInInspector] public bool facingRight = true;
 	[HideInInspector] public bool jump = false;
 	public float moveForce = 365f;
 	public float maxSpeed = 5f;
-	public float jumpForce = 50f;
-	public Transform groundCheck;
-
-	private bool grounded = false;
+	public float jumpForce = 700f;
 	private Rigidbody2D rb2d;
+	private CircleCollider2D collider;
 
 
 	// Use this for initialization
 	void Awake ()
 	{
 		rb2d = GetComponent<Rigidbody2D>();
+		collider= GetComponent<CircleCollider2D> ();
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-
-		if (Input.GetButtonDown("Jump") && grounded)
+		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
 		}
@@ -43,22 +39,11 @@ public class LunaController : MonoBehaviour {
 		}
 	}
 
-
-	void Flip()
+	void OnTriggerEnter2D(Collider2D other)
 	{
-		facingRight = !facingRight;
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
+		if (other.gameObject.CompareTag ("PickUp"))
+			Destroy (gameObject);
 	}
 
-	void OnTriggerEnter2D(Collider2D other)
-    {
-        //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
-        if (other.gameObject.CompareTag("PickUp"))
-                {
-                     other.gameObject.SetActive(false);
-										 Destroy(other, 0f);
-                }
-    }
+
 }
