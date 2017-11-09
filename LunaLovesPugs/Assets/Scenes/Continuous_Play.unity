@@ -137,8 +137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPlatforms: 20
   platform: {fileID: 1809653216849510, guid: d9c86d4b6dcf52545961f50cc5273906, type: 2}
-  horizontalMin: 6.5
-  horizontalMax: 14
+  horizontalMin: 10
+  horizontalMax: 20
   verticalMin: -2
   verticalMax: 6
 --- !u!4 &126209511
