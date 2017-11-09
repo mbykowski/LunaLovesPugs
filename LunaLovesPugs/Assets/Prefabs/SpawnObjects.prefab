@@ -364,10 +364,10 @@ MonoBehaviour:
   apple: {fileID: 1197617589557136}
   medicine: {fileID: 1854494031109894}
   pizza: {fileID: 1266736937793680}
-  horizontalMin: 20
-  horizontalMax: 40
-  verticalMin: 6
-  verticalMax: 12
+  horizontalMin: 10
+  horizontalMax: 20
+  verticalMin: 12
+  verticalMax: 13
 --- !u!212 &212335012839124572
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -397,8 +397,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1818470193
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300004, guid: 64d8ed38f70d24ba5bb9d76335b4f625, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -439,8 +439,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1818470193
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ccf2f9934d2794778971b65e67b97e2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -481,8 +481,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1818470193
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6d472c094c56841a3b4c77514635e98f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -523,8 +523,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1818470193
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a019e273712fa40978fc251605fe106d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
