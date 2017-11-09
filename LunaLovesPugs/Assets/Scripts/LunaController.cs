@@ -5,22 +5,22 @@ public class LunaController : MonoBehaviour {
 
 	[HideInInspector] public bool jump = false;
 	public float moveForce = 365f;
-	public float maxSpeed = 5f;
+	public float maxSpeed;
 	public float jumpForce = 700f;
 	private Rigidbody2D rb2d;
-	private CircleCollider2D collider;
 
 
 	// Use this for initialization
 	void Awake ()
 	{
+		maxSpeed = 5f;
 		rb2d = GetComponent<Rigidbody2D>();
-		collider= GetComponent<CircleCollider2D> ();
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
+		maxSpeed = maxSpeed;
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
@@ -29,6 +29,7 @@ public class LunaController : MonoBehaviour {
 
 	void FixedUpdate()
 	{
+		maxSpeed = maxSpeed;
 		var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 		transform.position += move * maxSpeed * Time.deltaTime;
 
@@ -38,12 +39,4 @@ public class LunaController : MonoBehaviour {
 			jump = false;
 		}
 	}
-
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.gameObject.CompareTag ("PickUp"))
-			Destroy (gameObject);
-	}
-
-
 }
