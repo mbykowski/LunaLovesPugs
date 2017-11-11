@@ -4,30 +4,31 @@ using UnityEngine;
 
 public class PugObjectCollision : MonoBehaviour {
 
-	LunaController luna = new LunaController();
+	public static float maxSpeed;
 	void Start () {
 	}
 	void Update () {		
 	}
 	void OnTriggerEnter2D(Collider2D other)
-	{ //not totally working yet (doesn't appear to be reflecting on the object)
+	{ 
+		float currentSpeed = GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed;
 		if (other.gameObject.CompareTag ("PickUp")) {
 			Destroy (other.gameObject);
 			if (other.gameObject.name == "Mushroom(Clone)") {
-				luna.maxSpeed = (float)(luna.maxSpeed - 2);
+				GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed - 2);
 			} else if (other.gameObject.name == "Pizza(Clone)") {
-				luna.maxSpeed = (float)(luna.maxSpeed - 1);
+				GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed - 1);
 			} else if (other.gameObject.name == "Apple(Clone)") {
-				if (luna.maxSpeed == 5) {
-					luna.maxSpeed = luna.maxSpeed;
+				if (currentSpeed == 5) {
+					GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed);
 				} else {
-					luna.maxSpeed = (float)luna.maxSpeed + 1;
+					GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed + 1);
 				}
 			} else if (other.gameObject.name == "Medicine(Clone)") {
-				if (luna.maxSpeed >= 3) {
-					luna.maxSpeed = 5f;
+				if (currentSpeed >= 3) {
+					GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = 5f;
 				} else {
-					luna.maxSpeed = (float)luna.maxSpeed + 2;
+					GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed + 2);
 				}
 			}  else { }
 		}

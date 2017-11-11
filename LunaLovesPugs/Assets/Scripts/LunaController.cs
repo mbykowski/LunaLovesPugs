@@ -9,18 +9,14 @@ public class LunaController : MonoBehaviour {
 	public float jumpForce = 700f;
 	private Rigidbody2D rb2d;
 
-
-	// Use this for initialization
 	void Awake ()
 	{
 		maxSpeed = 5f;
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
-	// Update is called once per frame
 	void Update ()
 	{
-		maxSpeed = maxSpeed;
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
@@ -28,8 +24,7 @@ public class LunaController : MonoBehaviour {
 	}
 
 	void FixedUpdate()
-	{
-		maxSpeed = maxSpeed;
+	{		
 		var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 		transform.position += move * maxSpeed * Time.deltaTime;
 
