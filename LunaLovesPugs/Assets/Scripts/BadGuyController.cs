@@ -17,7 +17,7 @@ public class BadGuyController : MonoBehaviour {
 		transform.position = pos;
 	}
 	void OnTriggerEnter2D(Collider2D other)
-	{ 
+	{
 		if (other.gameObject.CompareTag ("Luna")) {
 			Debug.Log ("collided with Luna"); //correctly displaying
 			//Tiffany this is where the game over screen will need to be called

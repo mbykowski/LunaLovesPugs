@@ -13,6 +13,7 @@ public class Timer : MonoBehaviour {
 	private float StartTime;
 	public Text ScoreText;
 	public Text scoreGT;
+	private bool Finished = false;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +26,7 @@ public class Timer : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
 		float t = Time.time - StartTime;
 
 		string minutes = ((int)t / 60).ToString();
@@ -46,5 +48,14 @@ public class Timer : MonoBehaviour {
 			HighScore.score = (int)score;
 			//HighScore.score = score;
 		}
+
+		if (Finished) {
+			return;
+		}
+	}
+
+	public void Finish() {
+		Finished = true;
+		TimerText.color = Color.yellow;
 	}
 }
