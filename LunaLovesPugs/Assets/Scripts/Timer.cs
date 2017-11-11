@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
-//https://www.youtube.com/watch?v=x-C95TuQtf0
-//Still need to add the end of the game/when the timer should stop
 using System;
 
 
@@ -26,6 +24,9 @@ public class Timer : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (Finished) {
+			return;
+		}
 
 		float t = Time.time - StartTime;
 
@@ -47,10 +48,6 @@ public class Timer : MonoBehaviour {
 		if (score > HighScore.score) {
 			HighScore.score = (int)score;
 			//HighScore.score = score;
-		}
-
-		if (Finished) {
-			return;
 		}
 	}
 
