@@ -11,7 +11,6 @@ public class LunaController : MonoBehaviour {
 
 	void Awake ()
 	{
-		maxSpeed = 5f;
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
@@ -24,7 +23,7 @@ public class LunaController : MonoBehaviour {
 	}
 
 	void FixedUpdate()
-	{		
+	{
 		var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 		transform.position += move * maxSpeed * Time.deltaTime;
 
