@@ -430,7 +430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump: 0
   moveForce: 365
-  maxSpeed: 5
+  maxSpeed: 0
   jumpForce: 700
 --- !u!1 &243026328
 GameObject:
@@ -962,7 +962,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   maxSpeed: 4
-  userDirection: {x: 1, y: 0}
 --- !u!58 &961167168
 CircleCollider2D:
   m_ObjectHideFlags: 0
