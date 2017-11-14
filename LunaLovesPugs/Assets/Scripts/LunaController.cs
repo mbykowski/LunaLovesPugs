@@ -7,6 +7,7 @@ public class LunaController : MonoBehaviour {
 	public float moveForce = 365f;
 	public float maxSpeed;
 	public float jumpForce = 700f;
+	public int xPOS;
 	private Rigidbody2D rb2d;
 
 	void Awake ()
@@ -26,6 +27,7 @@ public class LunaController : MonoBehaviour {
 	{
 		var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 		transform.position += move * maxSpeed * Time.deltaTime;
+		xPOS = (int)transform.position.x;
 
 		if (jump)
 		{
