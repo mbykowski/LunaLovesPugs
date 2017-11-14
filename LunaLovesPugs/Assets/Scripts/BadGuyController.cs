@@ -12,11 +12,11 @@ public class BadGuyController : MonoBehaviour {
 	{	}
 
 	void FixedUpdate()	{
-		
+
 		Vector2 pos = transform.position;
 		int lunaPos = GameObject.Find ("Luna").GetComponent<LunaController> ().xPOS;
-		if ((int)pos.x == lunaPos) {	
-			maxSpeed = 0f;			
+		if ((int)pos.x == lunaPos || (int)pos.x > lunaPos) {
+			maxSpeed = 0f;
 		} else {
 			maxSpeed = 4f;
 		}
