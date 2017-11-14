@@ -12,7 +12,7 @@ public class BadGuyController : MonoBehaviour {
 
 	void Update()
 	{
-		Vector3 pos = transform.position;
+		Vector2 pos = transform.position;
 		pos.x += maxSpeed * Time.deltaTime;
 		transform.position = pos;
 	}
