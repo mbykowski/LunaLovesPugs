@@ -8,16 +8,11 @@ public class BadGuyController : MonoBehaviour {
 	[HideInInspector] public bool facingRight = true;
 	public float maxSpeed = 0f;
 
-<<<<<<< HEAD
-	// Use this for initialization
 	void Awake ()
 	{	}
 
-	void FixedUpdate()
-=======
-	void Update()
->>>>>>> a91b99699167fc0d42ba10fa9b52c3bf3f858eb7
-	{
+	void FixedUpdate()	{
+		
 		Vector2 pos = transform.position;
 		int lunaPos = GameObject.Find ("Luna").GetComponent<LunaController> ().xPOS;
 		if ((int)pos.x == lunaPos) {	
