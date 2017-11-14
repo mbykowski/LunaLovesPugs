@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2d5427620fd634daa7b8cd4f487b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPlatforms: 30
+  maxPlatforms: 100
   platform: {fileID: 1809653216849510, guid: d9c86d4b6dcf52545961f50cc5273906, type: 2}
   horizontalMin: 10
   horizontalMax: 20
@@ -912,8 +912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd14c5d79452a4afaac35c9c74bab790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 3
-  tileSize: 10
+  scrollSpeed: 5
+  tileSize: 100
 --- !u!212 &860990936
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -947,7 +947,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88f713fb4ca8b4d488b0880a77d11a12, type: 3}
-  m_Color: {r: 0.4852941, g: 0.14273354, b: 0.14273354, a: 1}
+  m_Color: {r: 0.54217124, g: 0.8014706, b: 0.6619854, a: 0.556}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -963,8 +963,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 860990934}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 248, y: 18.8, z: 0}
-  m_LocalScale: {x: 100, y: 20, z: 1}
+  m_LocalPosition: {x: 525, y: 18.8, z: 0}
+  m_LocalScale: {x: 200, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -1445,8 +1445,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1159873296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 310, y: -4.9, z: 0}
-  m_LocalScale: {x: 100, y: 6, z: 1}
+  m_LocalPosition: {x: 650, y: -4.9, z: 0}
+  m_LocalScale: {x: 200, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0f951bb5e0f54b5eb7cbdad8010a570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxObjects: 30
+  maxObjects: 50
   mushroom: {fileID: 1668459272292714, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
   apple: {fileID: 1197617589557136, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
   medicine: {fileID: 1854494031109894, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
