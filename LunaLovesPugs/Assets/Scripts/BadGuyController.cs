@@ -33,8 +33,17 @@ public class BadGuyController : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Luna")) {
 			Debug.Log ("collided with Luna"); //correctly displaying
 			GameObject.Find("Timer").SendMessage("Finish");
+            //Loads Scene Game Over
+            LoadScene("GameOver");
+        }
 		if (other.gameObject.CompareTag ("PickUp")) {
 			Destroy (other.gameObject);
 		}
 	}
+
+    //Method Loads a scene by a given name encasped in quotes
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
