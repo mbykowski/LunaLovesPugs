@@ -4,15 +4,21 @@ using System.Collections;
 public class BadGuyController : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
-	public float maxSpeed = 4f;
+	public float maxSpeed = 0f;
 
 	// Use this for initialization
 	void Awake ()
 	{	}
 
-	void Update()
+	void FixedUpdate()
 	{
 		Vector2 pos = transform.position;
+		int lunaPos = GameObject.Find ("Luna").GetComponent<LunaController> ().xPOS;
+		if ((int)pos.x == lunaPos) {	
+			maxSpeed = 0f;			
+		} else {
+			maxSpeed = 4f;
+		}
 		pos.x += maxSpeed * Time.deltaTime;
 		transform.position = pos;
 	}
