@@ -37,10 +37,7 @@ public class Timer : MonoBehaviour {
 		TimerText.text = "Timer: " + minutes + ":" + seconds;
 
 		double score;//= double.Parse (scoreGT.text);
-		//int score = int.Parse (scoreGT.text);
-		score = Math.Round((t % 60), 0);
-		//score += 100;
-		//Mathf.Round(score);
+		score = Math.Round((t), 0);
 
 		scoreGT.text = score.ToString ();
 		ScoreText.text = "Score: " + score;
