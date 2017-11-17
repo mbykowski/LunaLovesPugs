@@ -1660,7 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxObjects: 50
-  mushroom: {fileID: 1668459272292714, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
+  mushroom: {fileID: 1671991421466522, guid: 546d83e5ab80e41109742f8c85e750f1, type: 2}
   apple: {fileID: 1197617589557136, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
   medicine: {fileID: 1854494031109894, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
   pizza: {fileID: 1266736937793680, guid: abeb3b3713d7e423c93f7a3c05658f17, type: 2}
