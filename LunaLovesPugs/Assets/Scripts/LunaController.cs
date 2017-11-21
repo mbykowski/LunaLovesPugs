@@ -9,6 +9,7 @@ public class LunaController : MonoBehaviour {
 	public float maxSpeed;
 	public float jumpForce = 700f;
 	public int xPOS;
+	public int yPOS;
 	private Rigidbody2D rb2d;
 	public GameObject Luna;
 
@@ -34,6 +35,7 @@ public class LunaController : MonoBehaviour {
 		var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 		transform.position += move * maxSpeed * Time.deltaTime;
 		xPOS = (int)transform.position.x;
+		yPOS = (int)transform.position.y;
 
 		if (jump)
 		{
