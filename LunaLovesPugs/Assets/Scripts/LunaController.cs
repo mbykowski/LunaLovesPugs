@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LunaController : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class LunaController : MonoBehaviour {
 	public float jumpForce = 700f;
 	public int xPOS;
 	private Rigidbody2D rb2d;
+	public GameObject Luna;
 
 	void Awake ()
 	{
@@ -20,6 +22,10 @@ public class LunaController : MonoBehaviour {
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
+		}
+		if (Luna.transform.position.y < -10)
+		{
+			LoadScene("GameOver");
 		}
 	}
 
@@ -34,5 +40,11 @@ public class LunaController : MonoBehaviour {
 			rb2d.AddForce(new Vector2(0f, jumpForce));
 			jump = false;
 		}
+	}
+
+	//Method Loads a scene by a given name encasped in quotes
+	public void LoadScene(string sceneName)
+	{
+			SceneManager.LoadScene(sceneName);
 	}
 }
