@@ -325,19 +325,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/mbykowski/Documents/Fall2017/COSC457/LunaLovesPugs/LunaLovesPugs
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e280000
-    m_LastClickedID: 10302
-    m_ExpandedIDs: 00000000162600002026000026260000862600008c260000b4260000b6260000382800003e2800008c2900008e290000902900009229000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 40}
+    m_SelectedIDs: b4260000
+    m_LastClickedID: 9908
+    m_ExpandedIDs: 00000000162600002026000026260000862600008c260000a8260000b4260000b6260000382800003e2800008c2900008e290000902900009229000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300004c270000
+    m_ExpandedInstanceIDs: c62300004c270000ae290000522a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ccefffff9cf8ffff1afcffff00000000
+    m_ExpandedIDs: 1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 957
     height: 424
   m_SceneLighting: 1
-  lastFramingTime: 1141.9839690327644
+  lastFramingTime: 1125.4456210136414
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1725, y: 1.5, z: 0}
+    m_Target: {x: 0, y: -10, z: 0}
     speed: 2
-    m_Value: {x: 1.1725, y: 1.5, z: 0}
+    m_Value: {x: 0, y: -10, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -567,9 +567,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 506.17252
+    m_Target: 64.67538
     speed: 2
-    m_Value: 506.17252
+    m_Value: 64.67538
   m_Ortho:
     m_Target: 1
     speed: 2

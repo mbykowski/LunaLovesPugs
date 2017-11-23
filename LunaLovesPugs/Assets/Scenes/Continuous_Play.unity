@@ -380,6 +380,7 @@ MonoBehaviour:
   maxSpeed: 6
   jumpForce: 700
   xPOS: 0
+  yPOS: 0
   Luna: {fileID: 196278128}
 --- !u!1 &339934608
 GameObject:
