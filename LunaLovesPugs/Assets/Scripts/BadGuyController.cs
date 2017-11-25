@@ -20,6 +20,8 @@ public class BadGuyController : MonoBehaviour {
 		} else {
 			maxSpeed = 4f;
 		}
+		int lunaPosY = GameObject.Find ("Luna").GetComponent<LunaController> ().yPOS;
+		pos.y = lunaPosY+1;
 		pos.x += maxSpeed * Time.deltaTime;
 		transform.position = pos;
 	}
