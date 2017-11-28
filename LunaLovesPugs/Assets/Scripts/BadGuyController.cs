@@ -6,7 +6,7 @@ using System;
 public class BadGuyController : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
-	public float maxSpeed = 0f;
+	public float maxSpeed;
 
 	void Awake ()
 	{	}
