@@ -8,6 +8,8 @@ TagManager:
   - PickUp
   - Luna
   - Ground
+  - GoodPickUp
+  - BadPickUp
   layers:
   - Default
   - TransparentFX
@@ -51,12 +53,12 @@ TagManager:
   - name: Platform
     uniqueID: 278329853
     locked: 0
-  - name: Player
-    uniqueID: 2604874123
+  - name: Ground
+    uniqueID: 1127811413
     locked: 0
   - name: Object
     uniqueID: 2476497103
     locked: 0
-  - name: Ground
-    uniqueID: 1127811413
+  - name: Player
+    uniqueID: 2604874123
     locked: 0
