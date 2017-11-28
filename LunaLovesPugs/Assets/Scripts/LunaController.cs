@@ -32,11 +32,7 @@ public class LunaController : MonoBehaviour {
 		{
 			jump = true;
 		}
-		//https://gamedev.stackexchange.com/questions/110686/jump-a-gameobject-when-a-key-is-pressed
-		if (Input.GetKey (KeyCode.UpArrow)) {
-			rb2d.velocity = Vector2.zero;
-			rb2d.AddForce (Vector3.down, ForceMode2D.Impulse);
-		}
+
 		if (Luna.transform.position.y < -10)
 		{
 			LoadScene("GameOver");
