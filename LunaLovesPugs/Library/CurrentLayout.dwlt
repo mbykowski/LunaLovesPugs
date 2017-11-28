@@ -42,10 +42,15 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
+<<<<<<< HEAD
+  m_MinSize: {x: 683, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
+=======
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
   vertical: 0
-  controlID: 9
+  controlID: 46
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +69,13 @@ MonoBehaviour:
     y: 0
     width: 311
     height: 731
+<<<<<<< HEAD
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+=======
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -114,9 +124,15 @@ MonoBehaviour:
     y: 443
     width: 1225
     height: 288
+<<<<<<< HEAD
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+=======
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
@@ -206,10 +222,15 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 731
+<<<<<<< HEAD
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
+=======
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
   vertical: 1
-  controlID: 10
+  controlID: 47
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +254,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 48
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,8 +273,13 @@ MonoBehaviour:
     y: 0
     width: 922
     height: 443
+<<<<<<< HEAD
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+=======
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -334,10 +360,17 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\shelb\LunaLovesPugs\LunaLovesPugs
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 66270000
+    m_LastClickedID: 10086
+    m_ExpandedIDs: 000000003227000050270000b6270000d8270000e6270000e82700006a29000070290000c02a0000c22a0000c42a0000c62a0000
+=======
     scrollPos: {x: 0, y: 26}
     m_SelectedIDs: 74280000
     m_LastClickedID: 10356
     m_ExpandedIDs: 000000003626000054260000ba260000c0260000dc260000ea260000ec2600006e28000074280000182a00001a2a00001c2a00001e2a000000ca9a3bffffff7f
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +398,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000003227000050270000b6270000d8270000e6270000e82700006a29000070290000c02a0000c22a0000c42a0000c62a0000
+=======
     m_ExpandedIDs: 000000003626000054260000ba260000c0260000dc260000ea260000ec2600006e28000074280000182a00001a2a00001c2a00001e2a0000
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,6 +518,15 @@ MonoBehaviour:
     height: 422
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0af5ffff00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+=======
     m_SelectedIDs: b62e0000
     m_LastClickedID: 11958
     m_ExpandedIDs: 24a3ffff1cadffffbcc1ffffe6c2ffff1afcffff00000000ec280000
@@ -488,16 +534,21 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: BadGuy
       m_OriginalName: BadGuy
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
+      m_UserData: 0
+=======
       m_UserData: 10552
+>>>>>>> 057e56c330dd32d5cf243a24fd804db08d013dac
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -678,7 +729,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 533
-    width: 1210
-    height: 261
+    x: 0
+    y: 535
+    width: 1223
+    height: 267
