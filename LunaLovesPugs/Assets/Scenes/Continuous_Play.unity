@@ -478,7 +478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: 0.05
-  tileSize: 0
 --- !u!1 &339934608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1272,7 @@ Transform:
   - {fileID: 1315409099}
   - {fileID: 339934609}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181820450
 GameObject:

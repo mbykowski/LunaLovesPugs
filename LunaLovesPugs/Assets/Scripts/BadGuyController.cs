@@ -6,8 +6,11 @@ using System;
 public class BadGuyController : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
+<<<<<<< HEAD
 	public float maxSpeed = 0f;
 	private Rigidbody2D rb2d;
+=======
+>>>>>>> b262c436479883971bf998f56672603c2efb8daa
 
 	void Awake ()
 	{
