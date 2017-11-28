@@ -325,18 +325,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\shelb\LunaLovesPugs\LunaLovesPugs
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: 4a260000
-    m_LastClickedID: 9802
+    m_SelectedIDs: 74280000
+    m_LastClickedID: 10356
     m_ExpandedIDs: 000000003626000054260000ba260000c0260000dc260000ea260000ec2600006e28000074280000182a00001a2a00001c2a00001e2a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -481,28 +481,28 @@ MonoBehaviour:
     height: 422
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e62d0000
-    m_LastClickedID: 11750
-    m_ExpandedIDs: 6cd7ffff8edeffff9cefffff70f6ffffb4f7ffff86f9ffff1afcffff00000000
+    m_SelectedIDs: b62e0000
+    m_LastClickedID: 11958
+    m_ExpandedIDs: 24a3ffff1cadffffbcc1ffffe6c2ffff1afcffff00000000ec280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: BadGuy
+      m_OriginalName: BadGuy
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10552
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Continuous_Play
+  - Level_3
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 918
     height: 422
   m_SceneLighting: 1
-  lastFramingTime: 527.702683365236
+  lastFramingTime: 275.3627985796759
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 287.90375, y: 2.31288, z: 0}
+    m_Target: {x: 1.1635001, y: 2.245, z: 0}
     speed: 2
-    m_Value: {x: 287.90375, y: 2.31288, z: 0}
+    m_Value: {x: 1.1635001, y: 2.245, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -567,9 +567,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 22
+    m_Target: 8.232412
     speed: 2
-    m_Value: 22
+    m_Value: 8.232412
   m_Ortho:
     m_Target: 1
     speed: 2

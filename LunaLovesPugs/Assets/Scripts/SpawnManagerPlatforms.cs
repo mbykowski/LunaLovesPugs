@@ -9,7 +9,7 @@ public class SpawnManagerPlatforms : MonoBehaviour {
 	private float horizontalMin = 6.5f;
 	private float horizontalMax = 14f;
 	private float verticalMin = 0f;
-	private float verticalMax = 6f;
+	private float verticalMax = 5f;
 	private Vector2 originPosition;
 
 	// Use this for initialization
