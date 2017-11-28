@@ -20,6 +20,7 @@ public class LunaController : MonoBehaviour {
 
 	void Update ()
 	{
+		
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
