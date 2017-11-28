@@ -7,10 +7,11 @@ public class PugObjectCollision : MonoBehaviour {
 	public static float maxSpeed;
 	void Start () {
 	}
-	void Update () {		
+	void Update () {
 	}
+	/**
 	void OnTriggerEnter2D(Collider2D other)
-	{ 
+	{
 		float currentSpeed = GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed;
 		if (other.gameObject.CompareTag ("PickUp")) {
 			Destroy (other.gameObject);
@@ -31,6 +32,27 @@ public class PugObjectCollision : MonoBehaviour {
 					GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed + 2);
 				}
 			}  else { }
+		}
+	}
+	*/
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		float currentSpeed = GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed;
+		if (other.gameObject.CompareTag ("GoodPickUp")) {
+			Destroy (other.gameObject);
+			if (currentSpeed == 5) {
+				GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed);
+			}
+			else {
+				GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed + 1);
+			}
+		}
+		else if (other.gameObject.CompareTag ("BadPickUp")) {
+			Destroy (other.gameObject);
+			GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed - 1);
+			if (currentSpeed == 0) {
+				GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed);
+			}
 		}
 	}
 }
