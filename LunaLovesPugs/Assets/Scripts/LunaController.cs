@@ -19,9 +19,16 @@ public class LunaController : MonoBehaviour {
 		rb2d = GetComponent<Rigidbody2D>();
 	}
 
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.gameObject.CompareTag ("Ground")) {
+			isGrounded = true;
+		}			
+	}
+
 	void Update ()
 	{
-		if (Input.GetButtonDown("Jump"))
+		if (Input.GetButtonDown("Jump") && isGrounded)
 		{
 			jump = true;
 		}
@@ -44,10 +51,11 @@ public class LunaController : MonoBehaviour {
 			var move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 			transform.position += move * maxSpeed * Time.deltaTime;
 			xPOS = (int)transform.position.x;
-			if (jump)
+			if (jump && isGrounded)
 			{
 				rb2d.AddForce(new Vector2(0f, jumpForce));
 				jump = false;
+				isGrounded = false;
 			}
 		}
 		//makes it so they cannot move Left
