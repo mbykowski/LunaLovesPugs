@@ -1,22 +1,30 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundScroller : MonoBehaviour
 {
     public float scrollSpeed;
-    public float tileSize;
+    float pos = 0;
 
+    public static BackgroundScroller current;
     private Vector2 startPosition;
 
     void Start ()
     {
-        startPosition = transform.position;
+        current = this;
+        //startPosition = transform.position;
     }
 
     void Update ()
     {
-        float newPosition = Mathf.Repeat(Time.time * scrollSpeed, tileSize);
-        transform.position = startPosition + Vector2.right * newPosition;
+      pos += scrollSpeed;
+      if (pos > 1.0f)
+      {
+          pos -= 1.0f;
+      }
+
+      //renderer.material.mainTextureOffset = new Vector2(pos, 0);
+        //float newPosition = Mathf.Repeat(Time.time * scrollSpeed, tileSize);
+        //transform.position = startPosition + Vector2.right * newPosition;
     }
 }
