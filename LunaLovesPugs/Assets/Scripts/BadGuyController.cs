@@ -6,11 +6,8 @@ using System;
 public class BadGuyController : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
-<<<<<<< HEAD
-	public float maxSpeed = 0f;
+	public float maxSpeed;
 	private Rigidbody2D rb2d;
-=======
->>>>>>> b262c436479883971bf998f56672603c2efb8daa
 
 	void Awake ()
 	{
@@ -43,6 +40,7 @@ public class BadGuyController : MonoBehaviour {
             //Loads Scene Game Over
             LoadScene("GameOver");
         }
+		if (other.gameObject.CompareTag ("GoodPickUp") || other.gameObject.CompareTag ("BadPickUp")) {
 			Destroy (other.gameObject);
 		}
 	}

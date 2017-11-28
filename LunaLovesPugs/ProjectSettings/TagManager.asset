@@ -7,8 +7,7 @@ TagManager:
   - LunaLovesPugsHighScore
   - PickUp
   - Luna
-  - GoodPickUp
-  - BadPickUp
+  - Ground
   layers:
   - Default
   - TransparentFX
