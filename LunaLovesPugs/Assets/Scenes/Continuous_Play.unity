@@ -137,10 +137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPlatforms: 30
   platform: {fileID: 1707437041947086, guid: 721884d7420ac46ed95ebe5b28669bb8, type: 2}
-  horizontalMin: 10
-  horizontalMax: 20
-  verticalMin: 1
-  verticalMax: 6
 --- !u!4 &126209511
 Transform:
   m_ObjectHideFlags: 0
@@ -1168,7 +1164,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115505575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 0, z: 0}
+  m_LocalPosition: {x: 100, y: -2, z: 0}
   m_LocalScale: {x: 200, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1553,10 +1549,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxObjects: 15
+  pizza: {fileID: 1191532903914904, guid: e764db94e0f494c68a3afc0ab3c43d16, type: 2}
+  chocolate: {fileID: 1080501666772672, guid: c6c5c50a208ab41c59b5c61f547b8bbe, type: 2}
   mushroom: {fileID: 1671991421466522, guid: 546d83e5ab80e41109742f8c85e750f1, type: 2}
+  corn: {fileID: 1553663559927706, guid: abec264196823473d9c010afcfa4224a, type: 2}
+  cherries: {fileID: 1401791710788944, guid: 9b6120bf0e4e54959bbd34e9e898f740, type: 2}
+  fish: {fileID: 1311891961354818, guid: 49843eed27d7849d8b9d5dbb14973709, type: 2}
+  meat: {fileID: 1765178283952482, guid: 8ad258e272b244fe595e358cc2b48d02, type: 2}
   apple: {fileID: 1648054061488446, guid: e7881a52bb7da420c822c01c79a7f84e, type: 2}
   medicine: {fileID: 1932361230973710, guid: 3b1e8bfd14b094e43a1e6a3c60c68926, type: 2}
-  pizza: {fileID: 1191532903914904, guid: e764db94e0f494c68a3afc0ab3c43d16, type: 2}
+  pumpkin: {fileID: 1447635403251838, guid: 52b14bb3c2c8041f5a47787c7e12ebc7, type: 2}
   horizontalMin: 10
   horizontalMax: 20
   verticalMin: 12

@@ -12,6 +12,7 @@ public class LunaController : MonoBehaviour {
 	public int yPOS;
 	private Rigidbody2D rb2d;
 	public GameObject Luna;
+	private bool isGrounded = false;
 
 	void Awake ()
 	{
@@ -20,7 +21,6 @@ public class LunaController : MonoBehaviour {
 
 	void Update ()
 	{
-		
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
