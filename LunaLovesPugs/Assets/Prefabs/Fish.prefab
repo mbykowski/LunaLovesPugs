@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212799350912046802}
   - component: {fileID: 50442160338868484}
   - component: {fileID: 61263620842827828}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fish
-  m_TagString: GoodPickUp
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
