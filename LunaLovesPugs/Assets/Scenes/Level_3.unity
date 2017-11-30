@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPlatforms: 30
-  platform: {fileID: 1707437041947086, guid: 721884d7420ac46ed95ebe5b28669bb8, type: 2}
+  platform: {fileID: 1411412767626288, guid: 97f4a6a18c49ac34491b3911cfb80f11, type: 2}
 --- !u!4 &1503168120
 Transform:
   m_ObjectHideFlags: 0
@@ -1243,7 +1243,7 @@ SpriteRenderer:
   m_SortingLayerID: 1127811413
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b69937474b1f94fa290e30e4e1114155, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ad04132d06eb30498ff400e6e0268b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
