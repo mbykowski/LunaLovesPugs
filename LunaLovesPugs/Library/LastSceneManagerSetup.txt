@@ -1,4 +1,16 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Title_Screen.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Continuous_Play.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Intro.unity
+=======
+- path: Assets/Scenes/Level_2.unity
+>>>>>>> 0ae89266443ca95bb9fc0c9d77c2bf03534b0e61
+>>>>>>> d031b39240e8d2ce29ed4b365c3208398a6ae415
+>>>>>>> f55c95beddff9ec628bca7de2497f87076f8f177
   isLoaded: 1
   isActive: 1
