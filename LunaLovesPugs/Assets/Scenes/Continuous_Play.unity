@@ -839,10 +839,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899a52cc28d084ccca873a1fe3c0517e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxObjects: 20
+  maxPlants: 30
+  maxClouds: 20
   Tree: {fileID: 1851376251442950, guid: 13abe959859324fafba7a68080049b42, type: 2}
-  horizontalMin: 20
-  horizontalMax: 40
+  Bush: {fileID: 1936192238805370, guid: 97b812868262446dbbf4fd684a8928a2, type: 2}
+  Cloud1: {fileID: 0}
+  Cloud2: {fileID: 0}
+  Cloud3: {fileID: 0}
+  horizontalMin: 10
+  horizontalMax: 30
 --- !u!4 &793234217
 Transform:
   m_ObjectHideFlags: 0
@@ -850,7 +855,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 793234215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
