@@ -42,10 +42,14 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 97
+=======
+  controlID: 111
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 311
     height: 731
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -88,9 +92,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 303
+<<<<<<< HEAD
     height: 460
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    height: 443
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -206,10 +216,14 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 731
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 98
+=======
+  controlID: 51
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,11 +243,19 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1225
+<<<<<<< HEAD
     height: 460
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 99
+=======
+    height: 443
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
+  vertical: 0
+  controlID: 52
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,14 +352,20 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scenes
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\shelb\LunaLovesPugs\LunaLovesPugs
+  m_LastFoldersGridSize: 64
+  m_LastProjectPath: C:\Users\tiffa\Desktop\Prototype\LunaLovesPugs\LunaLovesPugs
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 90280000
     m_LastClickedID: 10384
     m_ExpandedIDs: 000000003626000058260000cc260000f026000006270000082700008a28000090280000722a0000742a0000762a0000782a000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 94280000
+    m_LastClickedID: 10388
+    m_ExpandedIDs: 000000003a260000562600005c260000d0260000f42600000a2700000c2700008e28000094280000ca2a0000cc2a0000ce2a0000d02a0000ffffff7f
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +393,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000003626000058260000cc260000f026000006270000082700008a28000090280000722a0000742a0000762a0000782a0000
+=======
+    m_ExpandedIDs: 000000003a2600005c260000d0260000f42600000a2700000c2700008e28000094280000ca2a0000cc2a0000ce2a0000d02a0000
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,8 +424,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300000c270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -409,7 +441,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -446,7 +478,7 @@ MonoBehaviour:
     y: 92
     width: 309
     height: 710
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 268.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -481,9 +513,15 @@ MonoBehaviour:
     height: 439
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 9a2e0000
     m_LastClickedID: 11930
     m_ExpandedIDs: 4ebeffff9ad1ffff4cd7ffff48f6ffff1afcffff00000000
+=======
+    m_SelectedIDs: 0e520000
+    m_LastClickedID: 21006
+    m_ExpandedIDs: 3070fbffb4d3fbfffed4fbff422cfcff8c2dfcff0a90fcfffc93fcff0ca3fcffd6a8fcff86adfcff58ddfcff7282fdffc683fdff1491fdff149bfdffbe12feffa819fefff66bfeff0c6cfeff5c6efeff10cafeff26cafeff62cbfeff02d9feff78dbfeff5498ffff6a98ffff9ca4fffffca7ffffe4d9ffff94daffffaee1ffff62e2ffff1ce9ffffdaf0ffff18fcffff00000000903c0000b83d0000de3f0000124100003042000062490000284b00008e4b0000ce4c0000c44e0000f84f0000a4510000
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +540,11 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
   - Level_3
+=======
+  - Intro
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -538,9 +580,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -20, y: 1.5, z: 0}
     speed: 2
     m_Value: {x: -20, y: 1.5, z: 0}
+=======
+    m_Target: {x: 14.883201, y: 5.231169, z: 0}
+    speed: 2
+    m_Value: {x: 14.883201, y: 5.231169, z: 0}
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -567,9 +615,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 6.3301897
     speed: 2
     m_Value: 6.3301897
+=======
+    m_Target: 32.863293
+    speed: 2
+    m_Value: 32.863293
+>>>>>>> 08e0e6ec30df500613f5367e8da704fbc1b90a2d
   m_Ortho:
     m_Target: 1
     speed: 2
