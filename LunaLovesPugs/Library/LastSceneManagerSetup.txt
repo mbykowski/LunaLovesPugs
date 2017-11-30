@@ -1,19 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/Continuous_Play.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/Continuous_Play.unity
-=======
-- path: Assets/Scenes/Level_1.unity
->>>>>>> 4cada507b2c81bdc4bf25b21ac36f3b942ded9da
->>>>>>> 2830341a624834606379694c7aaf8460f2fe871f
-=======
-- path: Assets/Scenes/Level_3.unity
-=======
-- path: Assets/Scenes/Continuous_Play.unity
->>>>>>> bf57bef7908e89cd4da155b0f89ded43d9284d3a
->>>>>>> 06b0c11de877856a07e99ee9aaa220b86d2120f6
+- path: Assets/Scenes/Level_2.unity
   isLoaded: 1
   isActive: 1
