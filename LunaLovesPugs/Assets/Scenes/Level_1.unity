@@ -320,6 +320,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1323152605969634, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
   m_IsPrefabParent: 0
@@ -504,6 +508,10 @@ Prefab:
       propertyPath: m_Name
       value: Ground (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1323152605969634, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
   m_IsPrefabParent: 0
@@ -620,6 +628,10 @@ Prefab:
     - target: {fileID: 1323152605969634, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
       propertyPath: m_Name
       value: Ground (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323152605969634, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbdec36d84de1485b9ac96b8f52d42c7, type: 2}
