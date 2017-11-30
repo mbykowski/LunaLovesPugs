@@ -399,7 +399,7 @@ SpriteRenderer:
   m_SortingLayerID: 1127811413
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b69937474b1f94fa290e30e4e1114155, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43c7adbf8bc5c8f48ad21f341e8b1123, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -745,7 +745,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079959203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: -1.96, y: 9.93, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 1804410448}
@@ -1134,15 +1134,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxObjects: 15
   pizza: {fileID: 1191532903914904, guid: e764db94e0f494c68a3afc0ab3c43d16, type: 2}
-  chocolate: {fileID: 0}
+  chocolate: {fileID: 1080501666772672, guid: c6c5c50a208ab41c59b5c61f547b8bbe, type: 2}
   mushroom: {fileID: 1671991421466522, guid: 546d83e5ab80e41109742f8c85e750f1, type: 2}
-  corn: {fileID: 0}
-  cherries: {fileID: 0}
-  fish: {fileID: 0}
-  meat: {fileID: 0}
+  corn: {fileID: 1553663559927706, guid: abec264196823473d9c010afcfa4224a, type: 2}
+  cherries: {fileID: 1401791710788944, guid: 9b6120bf0e4e54959bbd34e9e898f740, type: 2}
+  fish: {fileID: 1311891961354818, guid: 49843eed27d7849d8b9d5dbb14973709, type: 2}
+  meat: {fileID: 1765178283952482, guid: 8ad258e272b244fe595e358cc2b48d02, type: 2}
   apple: {fileID: 1648054061488446, guid: e7881a52bb7da420c822c01c79a7f84e, type: 2}
   medicine: {fileID: 1932361230973710, guid: 3b1e8bfd14b094e43a1e6a3c60c68926, type: 2}
-  pumpkin: {fileID: 0}
+  pumpkin: {fileID: 1447635403251838, guid: 52b14bb3c2c8041f5a47787c7e12ebc7, type: 2}
   horizontalMin: 10
   horizontalMax: 20
   verticalMin: 12
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPlatforms: 30
-  platform: {fileID: 1707437041947086, guid: 721884d7420ac46ed95ebe5b28669bb8, type: 2}
+  platform: {fileID: 1513453184025430, guid: ec193e2220fbf5f46bfa7b579ad418a0, type: 2}
 --- !u!4 &1875584139
 Transform:
   m_ObjectHideFlags: 0
