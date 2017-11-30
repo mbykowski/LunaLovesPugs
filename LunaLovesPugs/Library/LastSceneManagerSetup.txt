@@ -1,5 +1,6 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Continuous_Play.unity
 =======
 <<<<<<< HEAD
@@ -16,5 +17,8 @@ sceneSetups:
 >>>>>>> d031b39240e8d2ce29ed4b365c3208398a6ae415
 >>>>>>> f55c95beddff9ec628bca7de2497f87076f8f177
 >>>>>>> 25f5093c185382e2458703b6d5029ba4d0848189
+=======
+- path: Assets/Scenes/Level_3.unity
+>>>>>>> 2718a82645dacd6c26770fc0bc718d5b01563f23
   isLoaded: 1
   isActive: 1
