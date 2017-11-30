@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4871804824627590}
   - component: {fileID: 212575013954877472}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DesertM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,9 +35,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4706561035064736}
-  m_Layer: 0
+  - component: {fileID: 61300457046615906}
+  - component: {fileID: 210639181704739908}
+  m_Layer: 10
   m_Name: DesertPlatform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,7 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4317672831754378}
   - component: {fileID: 212378455486362886}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DesertR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,7 +69,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4561151650586722}
   - component: {fileID: 212791333497078656}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DesertL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,8 +109,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1411412767626288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.0321803, y: 1.9331034, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children:
   - {fileID: 4871804824627590}
   - {fileID: 4561151650586722}
@@ -129,6 +131,41 @@ Transform:
   m_Father: {fileID: 4706561035064736}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61300457046615906
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411412767626288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.1500136, y: -0.11500168}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.7830322, y: 0.5399952}
+  m_EdgeRadius: 0
+--- !u!210 &210639181704739908
+SortingGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411412767626288}
+  m_Enabled: 1
+  m_SortingLayerID: 278329853
+  m_SortingLayer: 2
+  m_SortingOrder: 0
 --- !u!212 &212378455486362886
 SpriteRenderer:
   m_ObjectHideFlags: 1
