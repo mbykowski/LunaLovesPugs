@@ -17,13 +17,10 @@ public class EndPointController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.CompareTag ("Luna")) {
-			Debug.Log ("collided with Luna"); //correctly displaying
+			Debug.Log ("End Point Collision"); //correctly displaying
 			GameObject.Find("Timer").SendMessage("Finish");
 			//Loads Scene Game Over
 			LoadScene("Win");
-		}
-		if (other.gameObject.CompareTag ("GoodPickUp") || other.gameObject.CompareTag ("BadPickUp")) {
-			Destroy (other.gameObject);
 		}
 	}
 
