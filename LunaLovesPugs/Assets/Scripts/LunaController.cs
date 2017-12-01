@@ -14,6 +14,13 @@ public class LunaController : MonoBehaviour {
 	public GameObject Luna;
 	private bool isGrounded = false;
 
+	Animator anim;
+
+	void Start()
+	{
+		anim = GetComponent<Animator>();
+	}
+
 	void Awake ()
 	{
 		rb2d = GetComponent<Rigidbody2D>();
@@ -41,6 +48,8 @@ public class LunaController : MonoBehaviour {
 
 	void FixedUpdate()
 	{
+		anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+
 		//only allows right movement
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
