@@ -12,7 +12,7 @@ public class SpawnObjects : MonoBehaviour {
 	public GameObject mushroom;
 	public GameObject corn;
 	public GameObject cherries;
-	
+
 	//Good game objects
 	public GameObject fish;
 	public GameObject meat;

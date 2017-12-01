@@ -23,7 +23,7 @@ public class LunaController : MonoBehaviour {
 	{
 		if (other.gameObject.CompareTag ("Ground")) {
 			isGrounded = true;
-		}			
+		}
 	}
 
 	void Update ()
