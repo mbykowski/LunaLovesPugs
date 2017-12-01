@@ -276,7 +276,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4, y: 4.6}
+  m_Offset: {x: 4.5, y: 4.7}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -438,6 +438,16 @@ Prefab:
     - target: {fileID: 4704882463935256, guid: c1e874dc590177d4e8b697b2860b4d3b, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212223514548536958, guid: c1e874dc590177d4e8b697b2860b4d3b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0eaaf5ee9726b0a428406b1160e3de83,
+        type: 3}
+    - target: {fileID: 4827409217995504, guid: c1e874dc590177d4e8b697b2860b4d3b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1e874dc590177d4e8b697b2860b4d3b, type: 2}
@@ -2433,7 +2443,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

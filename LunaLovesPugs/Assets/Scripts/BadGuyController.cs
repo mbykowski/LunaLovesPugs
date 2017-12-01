@@ -29,6 +29,7 @@ public class BadGuyController : MonoBehaviour {
 	//	pos.y = lunaPosY+1;
 
 		pos.x += maxSpeed * Time.deltaTime;
+		pos.y = -0.614f;
 		transform.position = pos;
 	}
 
