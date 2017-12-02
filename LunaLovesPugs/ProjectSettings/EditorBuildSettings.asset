@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Continuous_Play.unity
     guid: 8233c2ff8db19458790e5c23f6c66190
   - enabled: 1
+    path: Assets/Scenes/LevelPicker.unity
+    guid: 7fc488426b553104088239282261ec9a
+  - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: af0b9834f947348059a4e6247387d62b
   - enabled: 1

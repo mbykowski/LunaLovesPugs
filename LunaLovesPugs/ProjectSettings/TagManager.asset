@@ -11,6 +11,7 @@ TagManager:
   - GoodPickUp
   - BadPickUp
   - GraveBadGuy
+  - music
   layers:
   - Default
   - TransparentFX
