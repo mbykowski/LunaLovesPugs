@@ -342,7 +342,7 @@ RectTransform:
   m_Children:
   - {fileID: 1151498282}
   m_Father: {fileID: 1707207493}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -398,7 +398,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Title_Screen
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &785586210
@@ -1275,9 +1275,9 @@ RectTransform:
   - {fileID: 915834718}
   - {fileID: 1629669473}
   - {fileID: 1254950975}
+  - {fileID: 2000597630}
   - {fileID: 785586208}
   - {fileID: 1839783307}
-  - {fileID: 2000597630}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1316,7 +1316,7 @@ RectTransform:
   m_Children:
   - {fileID: 1376178069}
   m_Father: {fileID: 1707207493}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1436,7 +1436,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1707207493}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

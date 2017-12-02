@@ -1096,7 +1096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 394, y: 147}
+  m_AnchoredPosition: {x: 394, y: 117.47}
   m_SizeDelta: {x: 89.6, y: 92.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160088677
@@ -1347,6 +1347,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
+  pauseSprite: {fileID: 21300282, guid: 419aedebf7665be419c3ba2477cb6589, type: 3}
+  playSprite: {fileID: 21300090, guid: 419aedebf7665be419c3ba2477cb6589, type: 3}
 --- !u!224 &1208311094
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2378,7 +2380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 304, y: 146.34}
+  m_AnchoredPosition: {x: 299.6, y: 116.81}
   m_SizeDelta: {x: 90.4, y: 94.226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764278298
