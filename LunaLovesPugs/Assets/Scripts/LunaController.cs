@@ -6,7 +6,7 @@ public class LunaController : MonoBehaviour {
 
 	[HideInInspector] public bool jump = false;
 	public float moveForce = 365f;
-	public float maxSpeed;
+	public float maxSpeed = 6f;
 	public float jumpForce = 500f;
 	public int xPOS;
 	public int yPOS;
@@ -18,7 +18,7 @@ public class LunaController : MonoBehaviour {
 
 	void Start()
 	{
-		anim = GetComponent<Animator>();
+		//anim = GetComponent<Animator>();
 	}
 
 	void Awake ()
@@ -48,7 +48,7 @@ public class LunaController : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+		//anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
 
 		//only allows right movement
 		if (Input.GetKey(KeyCode.RightArrow))

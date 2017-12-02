@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PugObjectCollision : MonoBehaviour {
 
-	public static float maxSpeed;
+	public static float maxSpeed = 6;
 	void Start () {
+		
 	}
 	void Update () {
 	}
@@ -40,7 +41,7 @@ public class PugObjectCollision : MonoBehaviour {
 		float currentSpeed = GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed;
 		if (other.gameObject.CompareTag ("GoodPickUp")) {
 			Destroy (other.gameObject);
-			if (currentSpeed == 5) {
+			if (currentSpeed == 6) {
 				GameObject.Find ("Luna").GetComponent<LunaController> ().maxSpeed = (currentSpeed);
 			}
 			else {
