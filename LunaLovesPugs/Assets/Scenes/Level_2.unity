@@ -1631,6 +1631,7 @@ GameObject:
   - component: {fileID: 1314741094}
   - component: {fileID: 1314741093}
   - component: {fileID: 1314741092}
+  - component: {fileID: 1314741097}
   m_Layer: 0
   m_Name: Luna
   m_TagString: Luna
@@ -1757,6 +1758,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1314741097
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1314741091}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a07c450602db40428b5cf97fa5edfc2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1418192046
 GameObject:
   m_ObjectHideFlags: 0
