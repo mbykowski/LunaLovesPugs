@@ -1358,6 +1358,7 @@ GameObject:
   - component: {fileID: 1273624791}
   - component: {fileID: 1273624789}
   - component: {fileID: 1273624790}
+  - component: {fileID: 1273624795}
   m_Layer: 0
   m_Name: BadGuy
   m_TagString: GraveBadGuy
@@ -1493,6 +1494,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1273624795
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1273624788}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3ef4533f5ee04b32b95631da5f3acd4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1289679229
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,7 +7,6 @@ public class SpawnBackground : MonoBehaviour {
 	public int maxPlants;
 	public int maxClouds;
 	public GameObject Tree;
-	public GameObject Bush;
 	public GameObject Cloud1;
 	public GameObject Cloud2;
 	public GameObject Cloud3;
@@ -22,22 +21,38 @@ public class SpawnBackground : MonoBehaviour {
 	private Vector2 originPosition;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		originPosition = transform.position;
 		Spawn();
 	}
 
-	private void Spawn () {
-		for (int i=0; i < maxPlants; i++) {
-			float RandomObj = Random.Range(0, 1);
-			if(RandomObj == 0){
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
-				Instantiate(Tree, randomPosition, Quaternion.identity);
+	private void Spawn ()
+	{
+		for (int i=0; i < maxPlants; i++)
+		{
+			Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+			Instantiate(Tree, randomPosition, Quaternion.identity);
+			originPosition = randomPosition;
+		}
+		for (int i = 0; i < maxClouds; i++) {
+			float RandomObj = Random.Range(0, 2);
+			if (RandomObj == 0)
+			{
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
+				Instantiate(Cloud1, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
-			else {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
-				Instantiate(Bush, randomPosition, Quaternion.identity);
+			else if (RandomObj == 1)
+			{
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
+				Instantiate(Cloud2, randomPosition, Quaternion.identity);
+				originPosition = randomPosition;
+			}
+			else if (RandomObj == 2)
+			{
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
+				Instantiate(Cloud3, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 		}
