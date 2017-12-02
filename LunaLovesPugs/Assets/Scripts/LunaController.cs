@@ -13,12 +13,14 @@ public class LunaController : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	public GameObject Luna;
 	private bool isGrounded = false;
+	float jumpTime, jumpDelay = 0.5f;
+	bool jumped;
 
 	Animator anim;
 
 	void Start()
 	{
-		//anim = GetComponent<Animator>();
+		anim = GetComponent<Animator>();
 	}
 
 	void Awake ()
@@ -30,6 +32,11 @@ public class LunaController : MonoBehaviour {
 	{
 		if (other.gameObject.CompareTag ("Ground")) {
 			isGrounded = true;
+			jumpTime -= Time.deltaTime;
+			if(jumpTime <= 0)
+			{
+				anim.SetTrigger("Land");
+			}
 		}
 	}
 
@@ -38,6 +45,7 @@ public class LunaController : MonoBehaviour {
 		if (Input.GetButtonDown("Jump") && isGrounded)
 		{
 			jump = true;
+			anim.SetTrigger("Jump");
 		}
 
 		if (Luna.transform.position.y < -10)
@@ -48,7 +56,7 @@ public class LunaController : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		//anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+		anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
 
 		//only allows right movement
 		if (Input.GetKey(KeyCode.RightArrow))
@@ -61,14 +69,13 @@ public class LunaController : MonoBehaviour {
 				rb2d.AddForce(new Vector2(0f, jumpForce));
 				jump = false;
 				isGrounded = false;
+				anim.SetTrigger("Jump");
 			}
 		}
 		//makes it so they cannot move Left
 		if (Input.GetKey(KeyCode.LeftArrow)){
 			transform.position = transform.position;
 		}
-
-
 	}
 
 	//Method Loads a scene by a given name encasped in quotes

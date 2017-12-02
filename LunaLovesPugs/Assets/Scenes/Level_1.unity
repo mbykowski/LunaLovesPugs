@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 641104469}
   - component: {fileID: 641104468}
   - component: {fileID: 641104467}
+  - component: {fileID: 641104472}
   m_Layer: 0
   m_Name: Luna
   m_TagString: Luna
@@ -514,6 +515,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &641104472
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 641104466}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a07c450602db40428b5cf97fa5edfc2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &657164623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,6 +2608,7 @@ GameObject:
   - component: {fileID: 1947661234}
   - component: {fileID: 1947661233}
   - component: {fileID: 1947661232}
+  - component: {fileID: 1947661238}
   m_Layer: 0
   m_Name: BadGuy
   m_TagString: Untagged
@@ -2725,6 +2744,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1947661238
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1947661231}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4e79aff3a3e547d494dcf355c8e041f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2008463164
 GameObject:
   m_ObjectHideFlags: 0
