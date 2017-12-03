@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: d05848a87d8864b83ad2674abebce17a
-timeCreated: 1510089283
+guid: 6f601d870fea448ad8a4139922b27179
+timeCreated: 1512258437
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Pug_Sprite_0
-    21300002: Pug_Sprite_1
-    21300004: Pug_Sprite_2
-    21300006: Pug_Sprite_3
-    21300008: Pug_Sprite_4
-    21300010: Pug_Sprite_5
-    21300012: Pug_Sprite_6
-    21300014: Pug_Sprite_7
-    21300016: Pug_Sprite_8
-    21300018: Pug_Sprite_9
-    21300020: Pug_Sprite_10
-    21300022: Pug_Sprite_11
+    21300000: Pug_Sprite 1_0
+    21300002: Pug_Sprite 1_1
+    21300004: Pug_Sprite 1_2
+    21300006: Pug_Sprite 1_3
+    21300008: Pug_Sprite 1_4
+    21300010: Pug_Sprite 1_5
+    21300012: Pug_Sprite 1_6
+    21300014: Pug_Sprite 1_7
+    21300016: Pug_Sprite 1_8
+    21300018: Pug_Sprite 1_9
+    21300020: Pug_Sprite 1_10
+    21300022: Pug_Sprite 1_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -87,7 +87,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pug_Sprite_0
+      name: Pug_Sprite 1_0
       rect:
         serializedVersion: 2
         x: 21
@@ -101,7 +101,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_1
+      name: Pug_Sprite 1_1
       rect:
         serializedVersion: 2
         x: 278
@@ -115,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_2
+      name: Pug_Sprite 1_2
       rect:
         serializedVersion: 2
         x: 533
@@ -129,7 +129,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_3
+      name: Pug_Sprite 1_3
       rect:
         serializedVersion: 2
         x: 785
@@ -143,7 +143,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_4
+      name: Pug_Sprite 1_4
       rect:
         serializedVersion: 2
         x: 1016
@@ -157,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_5
+      name: Pug_Sprite 1_5
       rect:
         serializedVersion: 2
         x: 385
@@ -171,7 +171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_6
+      name: Pug_Sprite 1_6
       rect:
         serializedVersion: 2
         x: 489
@@ -185,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_7
+      name: Pug_Sprite 1_7
       rect:
         serializedVersion: 2
         x: 726
@@ -199,7 +199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_8
+      name: Pug_Sprite 1_8
       rect:
         serializedVersion: 2
         x: 960
@@ -213,7 +213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_9
+      name: Pug_Sprite 1_9
       rect:
         serializedVersion: 2
         x: 142
@@ -227,7 +227,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_10
+      name: Pug_Sprite 1_10
       rect:
         serializedVersion: 2
         x: 277
@@ -241,7 +241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Pug_Sprite_11
+      name: Pug_Sprite 1_11
       rect:
         serializedVersion: 2
         x: 41
