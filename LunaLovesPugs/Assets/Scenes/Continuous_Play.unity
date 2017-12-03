@@ -117,7 +117,6 @@ GameObject:
   m_Component:
   - component: {fileID: 126209511}
   - component: {fileID: 126209510}
-  - component: {fileID: 126209512}
   m_Layer: 10
   m_Name: SpawnManagerPlatforms
   m_TagString: Untagged
@@ -133,11 +132,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 126209509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c2d5427620fd634daa7b8cd4f487b36, type: 3}
+  m_Script: {fileID: 11500000, guid: bfe51e8c56f464820b4b7d4448c4ab41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPlatforms: 20
+  maxPlatforms: 50
   platform: {fileID: 1707437041947086, guid: 721884d7420ac46ed95ebe5b28669bb8, type: 2}
+  Luna: {fileID: 196278128}
 --- !u!4 &126209511
 Transform:
   m_ObjectHideFlags: 0
@@ -151,31 +151,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &126209512
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 126209509}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 164.64734, y: 7.3432693}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.8056183, y: 18.811653}
-  m_EdgeRadius: 0
 --- !u!1 &169401083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,7 +2048,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1933379235}
   - component: {fileID: 1933379234}
-  - component: {fileID: 1933379236}
   m_Layer: 0
   m_Name: SpawnObjects
   m_TagString: PickUp
@@ -2089,10 +2063,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1933379233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0f951bb5e0f54b5eb7cbdad8010a570, type: 3}
+  m_Script: {fileID: 11500000, guid: be156481e7b4b45d9a51dc3c91d7cbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxObjects: 15
+  maxObjects: 50
   pizza: {fileID: 1191532903914904, guid: e764db94e0f494c68a3afc0ab3c43d16, type: 2}
   chocolate: {fileID: 1080501666772672, guid: c6c5c50a208ab41c59b5c61f547b8bbe, type: 2}
   mushroom: {fileID: 1671991421466522, guid: 546d83e5ab80e41109742f8c85e750f1, type: 2}
@@ -2103,10 +2077,11 @@ MonoBehaviour:
   apple: {fileID: 1648054061488446, guid: e7881a52bb7da420c822c01c79a7f84e, type: 2}
   medicine: {fileID: 1932361230973710, guid: 3b1e8bfd14b094e43a1e6a3c60c68926, type: 2}
   pumpkin: {fileID: 1447635403251838, guid: 52b14bb3c2c8041f5a47787c7e12ebc7, type: 2}
-  horizontalMin: 10
+  horizontalMin: 15
   horizontalMax: 20
-  verticalMin: 12
-  verticalMax: 13
+  verticalMin: 13
+  verticalMax: 14
+  Luna: {fileID: 196278128}
 --- !u!4 &1933379235
 Transform:
   m_ObjectHideFlags: 0
@@ -2120,31 +2095,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1933379236
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1933379233}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 164.44876, y: 7.7182217}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.3962555, y: 18.650467}
-  m_EdgeRadius: 0
 --- !u!1001 &1957478340
 Prefab:
   m_ObjectHideFlags: 0

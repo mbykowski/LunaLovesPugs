@@ -27,8 +27,5 @@ public class GroundController : MonoBehaviour {
 		Vector2 groundPosition = originPositionGround + new Vector2 (198.15f, 0);
 		Instantiate(ground, groundPosition, Quaternion.identity);
 		originPositionGround = groundPosition;
-		Vector2 skyPosition = originPositionSky + new Vector2 (195.0f, 0);
-		Instantiate(sky, skyPosition, Quaternion.identity);
-		originPositionSky = skyPosition;
 	}
 }

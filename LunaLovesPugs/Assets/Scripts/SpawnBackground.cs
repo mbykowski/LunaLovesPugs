@@ -10,12 +10,12 @@ public class SpawnBackground : MonoBehaviour {
 	public GameObject Cloud1;
 	public GameObject Cloud2;
 	public GameObject Cloud3;
-	
+
 	//How far we can move the objects from one another.
 	public float horizontalMin;
 	public float horizontalMax;
-	private float verticalMin = -2.0f;
-	private float verticalMax = 2.0f;
+	private float verticalMin = -1.0f;
+	private float verticalMax = 1.0f;
 
 	private Vector2 originPositionTree;
 	private Vector2 originPositionCloud;
@@ -24,7 +24,7 @@ public class SpawnBackground : MonoBehaviour {
 	void Start ()
 	{
 		originPositionTree = transform.position;
-		originPositionCloud = transform.position;
+		originPositionCloud = new Vector2 (0, 13);
 		Spawn();
 	}
 
@@ -37,7 +37,7 @@ public class SpawnBackground : MonoBehaviour {
 			originPositionTree = randomPosition;
 		}
 		for (int i = 0; i < maxClouds; i++) {
-			float RandomObj = Random.Range(0, 2);
+			float RandomObj = Random.Range(0, 3);
 			if (RandomObj == 0)
 			{
 				Vector2 randomPosition = originPositionCloud + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
