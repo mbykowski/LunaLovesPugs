@@ -27,10 +27,17 @@ public class SpawnObjects : MonoBehaviour {
 	public float verticalMax;
 
 	private Vector2 originPosition;
+	private bool objectEnd;
 
 	// Use this for initialization
 	void Start () {
 		originPosition = transform.position;
+		Spawn();
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		objectEnd = true;
 		Spawn();
 	}
 

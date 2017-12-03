@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class GroundController : MonoBehaviour {
 
-	private Vector2 originPosition;
+	private Vector2 originPositionGround;
+	private Vector2 originPositionSky;
 	private bool groundEnd;
 	public GameObject ground;
+	public GameObject sky;
 
 	// Use this for initialization
 	void Start () {
-		originPosition = transform.position;
+		originPositionGround = transform.position;
+		originPositionSky = transform.position;
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
@@ -21,8 +24,11 @@ public class GroundController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Spawn() {
-		Vector2 groundPosition = originPosition + new Vector2 (198.15f, 0);
+		Vector2 groundPosition = originPositionGround + new Vector2 (198.15f, 0);
 		Instantiate(ground, groundPosition, Quaternion.identity);
-		originPosition = groundPosition;
+		originPositionGround = groundPosition;
+		Vector2 skyPosition = originPositionSky + new Vector2 (195.0f, 0);
+		Instantiate(sky, skyPosition, Quaternion.identity);
+		originPositionSky = skyPosition;
 	}
 }

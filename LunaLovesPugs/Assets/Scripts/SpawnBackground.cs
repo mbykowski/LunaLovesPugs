@@ -10,20 +10,21 @@ public class SpawnBackground : MonoBehaviour {
 	public GameObject Cloud1;
 	public GameObject Cloud2;
 	public GameObject Cloud3;
-
-
+	
 	//How far we can move the objects from one another.
 	public float horizontalMin;
 	public float horizontalMax;
-	private float verticalMin = 5.0f;
-	private float verticalMax = 10.0f;
+	private float verticalMin = -2.0f;
+	private float verticalMax = 2.0f;
 
-	private Vector2 originPosition;
+	private Vector2 originPositionTree;
+	private Vector2 originPositionCloud;
 
 	// Use this for initialization
 	void Start ()
 	{
-		originPosition = transform.position;
+		originPositionTree = transform.position;
+		originPositionCloud = transform.position;
 		Spawn();
 	}
 
@@ -31,29 +32,29 @@ public class SpawnBackground : MonoBehaviour {
 	{
 		for (int i=0; i < maxPlants; i++)
 		{
-			Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+			Vector2 randomPosition = originPositionTree + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
 			Instantiate(Tree, randomPosition, Quaternion.identity);
-			originPosition = randomPosition;
+			originPositionTree = randomPosition;
 		}
 		for (int i = 0; i < maxClouds; i++) {
 			float RandomObj = Random.Range(0, 2);
 			if (RandomObj == 0)
 			{
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
+				Vector2 randomPosition = originPositionCloud + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
 				Instantiate(Cloud1, randomPosition, Quaternion.identity);
-				originPosition = randomPosition;
+				originPositionCloud = randomPosition;
 			}
 			else if (RandomObj == 1)
 			{
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
+				Vector2 randomPosition = originPositionCloud + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
 				Instantiate(Cloud2, randomPosition, Quaternion.identity);
-				originPosition = randomPosition;
+				originPositionCloud = randomPosition;
 			}
 			else if (RandomObj == 2)
 			{
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
+				Vector2 randomPosition = originPositionCloud + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin,verticalMax));
 				Instantiate(Cloud3, randomPosition, Quaternion.identity);
-				originPosition = randomPosition;
+				originPositionCloud = randomPosition;
 			}
 		}
 	}

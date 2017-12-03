@@ -11,13 +11,20 @@ public class SpawnManagerPlatforms : MonoBehaviour {
 	private float verticalMin = 0f;
 	private float verticalMax = 5f;
 	private Vector2 originPosition;
+	private bool platformEnd;
 
 	// Use this for initialization
 	void Start () {
 		originPosition = transform.position;
 		Spawn ();
 	}
-	
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		platformEnd = true;
+		Spawn();
+	}
+
 	void Spawn(){
 		for (int i = 0; i < maxPlatforms; i++) {
 			if (i < 4) {
@@ -32,5 +39,6 @@ public class SpawnManagerPlatforms : MonoBehaviour {
 				originPosition.y = 0;
 			}
 		}
+
 	}
 }
