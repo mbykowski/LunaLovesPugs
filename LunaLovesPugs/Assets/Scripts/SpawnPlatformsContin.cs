@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManagerPlatforms : MonoBehaviour {
+public class SpawnPlatformsContin : MonoBehaviour {
 
 	public int maxPlatforms;
 	public GameObject platform;
@@ -11,11 +11,24 @@ public class SpawnManagerPlatforms : MonoBehaviour {
 	private float verticalMin = 0f;
 	private float verticalMax = 5f;
 	private Vector2 originPosition;
+	public GameObject Luna;
+	float posMin = 300.0f;
+	float posMax = 400.0f;
 
 	// Use this for initialization
 	void Start () {
 		originPosition = transform.position;
 		Spawn ();
+	}
+
+	void Update()
+	{
+		if(Luna.transform.position.x >= posMin && Luna.transform.position.x <= posMax) {
+			//maxPlatforms += 50;
+			posMin += 250.0f;
+			posMax += 250.0f;
+			Spawn();
+		}
 	}
 
 	void Spawn(){
