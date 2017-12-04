@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MusicCTRL : MonoBehaviour
 {
-
-    
+        
     void Awake()
     {
         GameObject[] objects = GameObject.FindGameObjectsWithTag("music");
