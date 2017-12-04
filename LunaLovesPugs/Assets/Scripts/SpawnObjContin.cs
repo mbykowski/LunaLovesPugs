@@ -28,8 +28,8 @@ public class SpawnObjContin : MonoBehaviour {
 
 	private Vector2 originPosition;
 	public GameObject Luna;
-	float posMin = 300.0f;
-	float posMax = 400.0f;
+	float posMin = 250.0f;
+	float posMax = 300.0f;
 
 	// Use this for initialization
 	void Start () {
