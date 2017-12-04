@@ -873,6 +873,7 @@ MonoBehaviour:
   Cloud3: {fileID: 1446031016726644, guid: 782abf562fbea4a219340f99b7badebb, type: 2}
   horizontalMin: 10
   horizontalMax: 30
+  Luna: {fileID: 196278128}
 --- !u!4 &793234217
 Transform:
   m_ObjectHideFlags: 0

@@ -16,6 +16,9 @@ public class SpawnBackground : MonoBehaviour {
 	public float horizontalMax;
 	private float verticalMin = -1.0f;
 	private float verticalMax = 1.0f;
+	public GameObject Luna;
+	float posMin = 300.0f;
+	float posMax = 400.0f;
 
 	private Vector2 originPositionTree;
 	private Vector2 originPositionCloud;
@@ -26,6 +29,15 @@ public class SpawnBackground : MonoBehaviour {
 		originPositionTree = transform.position;
 		originPositionCloud = new Vector2 (0, 13);
 		Spawn();
+	}
+
+	void Update()
+	{
+		if(Luna.transform.position.x >= posMin && Luna.transform.position.x <= posMax) {
+			posMin += 250.0f;
+			posMax += 250.0f;
+			Spawn();
+		}
 	}
 
 	private void Spawn ()
