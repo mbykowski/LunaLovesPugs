@@ -12,6 +12,8 @@ TagManager:
   - BadPickUp
   - GraveBadGuy
   - music
+  - BadObstacle
+  - Obstacle
   layers:
   - Default
   - TransparentFX

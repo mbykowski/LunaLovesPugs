@@ -2,49 +2,55 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnPlatformsContin : MonoBehaviour {
+public class SpawnObstaclesLevel1 : MonoBehaviour {
 
-	public int maxPlatforms;
-	public GameObject platform;
-	private float horizontalMin = 6.5f;
-	private float horizontalMax = 14f;
-	private float verticalMin = 0f;
-	private float verticalMax = 5f;
+	public int maxObjects = 15;
+
+	//Bad game objects
+	public GameObject bush;
+	public GameObject wood_spikes;
+
+	//generic game objects
+	public GameObject stone;
+	public GameObject tree;
+
+	//How far we can move the objects from one another.
+	private float horizontalMin = 20;
+	private float horizontalMax = 30;
+	private float verticalMin = -1;
+	private float verticalMax = 1;
+
 	private Vector2 originPosition;
-	public GameObject Luna;
-	float posMin = 300.0f;
-	float posMax = 400.0f;
 
 	// Use this for initialization
 	void Start () {
 		originPosition = transform.position;
-		Spawn ();
+		Spawn();
 	}
 
-	void Update()
-	{
-		if(Luna.transform.position.x >= posMin && Luna.transform.position.x <= posMax) {
-			//maxPlatforms += 50;
-			posMin += 250.0f;
-			posMax += 250.0f;
-			Spawn();
-		}
-	}
-
-	void Spawn(){
-		for (int i = 0; i < maxPlatforms; i++) {
-			if (i < 4) {
-				Vector2 randomPosition = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(0, verticalMax));
-				Instantiate (platform, randomPosition, Quaternion.identity);
-				originPosition.x = randomPosition.x;
-				originPosition.y = 0;
-			} else {
-				Vector2 randomPosition = originPosition + new Vector2(Random.Range(horizontalMin, horizontalMax), Random.Range(verticalMin, verticalMax));
-				Instantiate (platform, randomPosition, Quaternion.identity);
-				originPosition.x = randomPosition.x;
-				originPosition.y = 0;
+	private void Spawn () {
+		for (int i=0; i < maxObjects; i++) {
+			float RandomObj = Random.Range(0, 4);
+			if (RandomObj == 0) {
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
+				Instantiate(stone, randomPosition, Quaternion.identity);
+				originPosition = randomPosition;
+			}
+			else if (RandomObj == 1) {
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
+				Instantiate(wood_spikes, randomPosition, Quaternion.identity);
+				originPosition = randomPosition;
+			}
+			else if (RandomObj == 2) {
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
+				Instantiate(tree, randomPosition, Quaternion.identity);
+				originPosition = randomPosition;
+			}
+			else if (RandomObj == 3) {
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
+				Instantiate(bush, randomPosition, Quaternion.identity);
+				originPosition = randomPosition;
 			}
 		}
-
 	}
 }

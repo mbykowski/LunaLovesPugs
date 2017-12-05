@@ -2342,6 +2342,51 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1576977177}
+--- !u!1 &1611233622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1611233623}
+  - component: {fileID: 1611233624}
+  m_Layer: 0
+  m_Name: SpawnObstacles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611233623
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1611233622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.187616, y: 0.84006476, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611233624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1611233622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea5e063ab67651448e4e4e58ab084c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxObjects: 15
+  cactus1: {fileID: 1119108506215054, guid: 7d07da46981f3b9409d19f214eeb2c33, type: 2}
+  cactus2: {fileID: 1756890742792534, guid: 3cc1e8742dab931498cbfda6b8329499, type: 2}
+  cactus3: {fileID: 1888909091560264, guid: 917c6d94adf66e94c951d89c289289c1, type: 2}
+  stone: {fileID: 1404993210479824, guid: c0c144c282fc3b74e936df96246942a3, type: 2}
 --- !u!1 &1649468832
 GameObject:
   m_ObjectHideFlags: 0

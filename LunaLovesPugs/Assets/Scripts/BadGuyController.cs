@@ -45,7 +45,7 @@ public class BadGuyController : MonoBehaviour {
             //Loads Scene Game Over
             LoadScene("GameOver");
         }
-		if (other.gameObject.CompareTag ("GoodPickUp") || other.gameObject.CompareTag ("BadPickUp")) {
+		if (other.gameObject.CompareTag ("GoodPickUp") || other.gameObject.CompareTag ("BadPickUp") || other.gameObject.CompareTag ("Obstacle") || other.gameObject.CompareTag ("BadObstacle")) {
 			Destroy (other.gameObject);
 		}
 	}
