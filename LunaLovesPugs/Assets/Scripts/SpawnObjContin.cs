@@ -28,8 +28,8 @@ public class SpawnObjContin : MonoBehaviour {
 
 	private Vector2 originPosition;
 	public GameObject Luna;
-	float posMin = 200.0f;
-	float posMax = 250.0f;
+	float posMin = 250.0f;
+	float posMax = 300.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -40,8 +40,9 @@ public class SpawnObjContin : MonoBehaviour {
 	void Update()
 	{
 		if(Luna.transform.position.x >= posMin && Luna.transform.position.x <= posMax) {
-			posMin += 200.0f;
-			posMax += 200.0f;
+			//maxPlatforms += 50;
+			posMin += 250.0f;
+			posMax += 250.0f;
 			Spawn();
 		}
 	}
@@ -55,47 +56,47 @@ public class SpawnObjContin : MonoBehaviour {
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 1) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(chocolate, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 2) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(mushroom, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 3) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(corn, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 4) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(cherries, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 5) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(fish, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 6) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(meat, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 7) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(apple, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 8) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(medicine, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
 			else if (RandomObj == 9) {
-				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), 0);
+				Vector2 randomPosition = originPosition + new Vector2 (Random.Range(horizontalMin,horizontalMax), Random.Range(verticalMin, verticalMax));
 				Instantiate(pumpkin, randomPosition, Quaternion.identity);
 				originPosition = randomPosition;
 			}
