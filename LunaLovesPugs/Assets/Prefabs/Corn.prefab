@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212716609780876400}
   - component: {fileID: 50169332278771962}
   - component: {fileID: 60925149207874452}
+  - component: {fileID: 122452951023652326}
   m_Layer: 0
   m_Name: Corn
   m_TagString: BadPickUp
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1553663559927706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 7.9265795, y: 0.2771647, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,6 +104,17 @@ PolygonCollider2D:
       - {x: 0.28714383, y: 0.36602688}
       - {x: 0.15098193, y: 0.33312607}
       - {x: 0.06285613, y: 0.28415203}
+--- !u!122 &122452951023652326
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553663559927706}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190249
+  m_Size: 1
 --- !u!212 &212716609780876400
 SpriteRenderer:
   m_ObjectHideFlags: 1

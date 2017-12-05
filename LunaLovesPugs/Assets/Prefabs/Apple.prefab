@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212079515801065948}
   - component: {fileID: 58395761908160004}
   - component: {fileID: 50179094121423648}
+  - component: {fileID: 122336752582377358}
   m_Layer: 0
   m_Name: Apple
   m_TagString: GoodPickUp
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1648054061488446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.4270725, y: -0.08076839, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,6 +78,17 @@ CircleCollider2D:
   m_Offset: {x: -0.43, y: -0.15}
   serializedVersion: 2
   m_Radius: 0.19779557
+--- !u!122 &122336752582377358
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1648054061488446}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4284255061
+  m_Size: 1.5
 --- !u!212 &212079515801065948
 SpriteRenderer:
   m_ObjectHideFlags: 1

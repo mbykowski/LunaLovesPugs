@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212993473412738288}
   - component: {fileID: 61411324434568502}
   - component: {fileID: 50556009686718092}
+  - component: {fileID: 122869974952299138}
   m_Layer: 0
   m_Name: Wooden_Spike
   m_TagString: BadObstacle
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1799650511084678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.48, y: 1.91, z: 0}
+  m_LocalPosition: {x: -5.6473393, y: 0.0018312931, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -87,6 +88,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2}
   m_EdgeRadius: 0
+--- !u!122 &122869974952299138
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799650511084678}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4281677206
+  m_Size: 1.7
 --- !u!212 &212993473412738288
 SpriteRenderer:
   m_ObjectHideFlags: 1

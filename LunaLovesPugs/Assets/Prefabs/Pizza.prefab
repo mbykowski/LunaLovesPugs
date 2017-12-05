@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212049619270522768}
   - component: {fileID: 50158097073402610}
   - component: {fileID: 61565307724583716}
+  - component: {fileID: 122828432784880818}
   m_Layer: 0
   m_Name: Pizza
   m_TagString: BadPickUp
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1191532903914904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.9953415, y: 0.0018312931, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -87,6 +88,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5781987, y: 2.035882}
   m_EdgeRadius: 0
+--- !u!122 &122828432784880818
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191532903914904}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190249
+  m_Size: 1.5
 --- !u!212 &212049619270522768
 SpriteRenderer:
   m_ObjectHideFlags: 1

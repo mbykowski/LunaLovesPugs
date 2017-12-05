@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212857133409646888}
   - component: {fileID: 50801178230934430}
   - component: {fileID: 58919745506443312}
+  - component: {fileID: 122400629825114652}
   m_Layer: 0
   m_Name: Meat
   m_TagString: GoodPickUp
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1765178283952482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.2894063, y: -1.7602999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,6 +78,17 @@ CircleCollider2D:
   m_Offset: {x: -0.02549941, y: -0.11354977}
   serializedVersion: 2
   m_Radius: 0.2721722
+--- !u!122 &122400629825114652
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1765178283952482}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4284255061
+  m_Size: 1
 --- !u!212 &212857133409646888
 SpriteRenderer:
   m_ObjectHideFlags: 1
