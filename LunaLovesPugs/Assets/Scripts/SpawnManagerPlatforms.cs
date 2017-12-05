@@ -32,6 +32,5 @@ public class SpawnManagerPlatforms : MonoBehaviour {
 				originPosition.y = 0;
 			}
 		}
-
 	}
 }
