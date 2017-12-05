@@ -135,6 +135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f98691dda3914c7eae393cbfce4db05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxPlatforms: 0
+  platform: {fileID: 0}
+  Luna: {fileID: 0}
 --- !u!4 &126209511
 Transform:
   m_ObjectHideFlags: 0
