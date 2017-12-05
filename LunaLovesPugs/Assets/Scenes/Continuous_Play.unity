@@ -136,8 +136,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPlatforms: 0
+<<<<<<< HEAD
   platform: {fileID: 1707437041947086, guid: 721884d7420ac46ed95ebe5b28669bb8, type: 2}
   Luna: {fileID: 196278128}
+=======
+  platform: {fileID: 0}
+  Luna: {fileID: 0}
+>>>>>>> 20c26ab50b3823cf785376d367e924016c3ef6c0
 --- !u!4 &126209511
 Transform:
   m_ObjectHideFlags: 0
