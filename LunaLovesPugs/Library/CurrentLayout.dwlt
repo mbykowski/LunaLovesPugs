@@ -378,19 +378,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\shelb\LunaLovesPugs\LunaLovesPugs
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 5}
-    m_SelectedIDs: 602b0000
-    m_LastClickedID: 11104
-    m_ExpandedIDs: 000000004c2600003227000044270000fa290000042a00008e2a0000602b0000622b0000f02c00004c2d0000e02d0000fc2f0000fe2f0000003000000230000000ca9a3bffffff7f
+    m_SelectedIDs: 4c2d0000
+    m_LastClickedID: 11596
+    m_ExpandedIDs: 000000004c2600003227000044270000fa290000042a00008e2a0000602b0000622b0000f02c00004c2d0000e02d0000a8320000aa320000ac320000ae32000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c2600003227000044270000fa290000042a00008e2a0000602b0000622b0000f02c00004c2d0000e02d0000fc2f0000fe2f00000030000002300000
+    m_ExpandedIDs: 000000004c2600003227000044270000fa290000042a00008e2a0000602b0000622b0000f02c00004c2d0000e02d0000a8320000aa320000ac320000ae320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -534,9 +534,9 @@ MonoBehaviour:
     height: 420
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: a4cefcff0ca6feffc6bcfeffc4d0feff58f3ffff1afcffff00000000
+    m_SelectedIDs: bc320000
+    m_LastClickedID: 12988
+    m_ExpandedIDs: 4ceeffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -555,7 +555,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Level_1
+  - Continuous_Play
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
