@@ -66,12 +66,16 @@ Transform:
   m_GameObject: {fileID: 1671991421466522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -1.1697782, y: -1.4134632, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_Children:
   - {fileID: 4133092089187678}
 =======
   m_LocalPosition: {x: -3.8852084, y: 5, z: 0}
+=======
+  m_LocalPosition: {x: -3.8852084, y: 0.0018312931, z: 0}
+>>>>>>> parent of 536796a... Fixed object spawn
   m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
 >>>>>>> 536796abcff41f7925d1347bbcb2f52c87f12631
